@@ -28,5 +28,19 @@
 		"target_path": "hardware/qcom-caf/msm8998-asus/media",
 		"remote": "github",
                 "branch": "11"
+	},
+	{
+		"repository": "mvaisakh/gcc-arm64",
+		"target_path": "prebuilts/gcc/linux-x86/aarch64/aarch64-elf",
+		"clone-depth": "1",
+		"remote": "github",
+		"branch": "gcc-new"
+	},
+	{
+		"repository": "mvaisakh/gcc-arm",
+		"target_path": "prebuilts/gcc/linux-x86/arm/arm-eabi",
+		"clone-depth": "1",
+		"remote": "github",
+		"branch": "gcc-new"
 	}
 ]
